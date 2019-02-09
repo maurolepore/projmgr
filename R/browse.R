@@ -15,6 +15,7 @@
 #' my_repo <- create_repo_ref("repo_owner", "repo")
 #' browse_repo(my_repo)
 #' }
+#' @family chirunconf
 
 browse_repo <- function(repo_ref) {
 
@@ -45,7 +46,7 @@ browse_repo <- function(repo_ref) {
 #' my_repo <- create_repo_ref("repo_owner", "repo")
 #' browse_issues(my_repo)
 #' }
-
+#' @family chirunconf
 browse_issues <- function(repo_ref, number = "") {
 
   # base url varies depending on if private/ent or public
@@ -75,7 +76,7 @@ browse_issues <- function(repo_ref, number = "") {
 #' my_repo <- create_repo_ref("repo_owner", "repo")
 #' browse_milestones(my_repo)
 #' }
-
+#' @family chirunconf
 browse_milestones <- function(repo_ref, number = "") {
 
   # base url varies depending on if private/ent or public
@@ -112,7 +113,7 @@ browse_milestones <- function(repo_ref, number = "") {
 #' \dontrun{
 #' browse_docs('get', 'milestone')
 #' }
-
+#' @family chirunconf
 browse_docs <- function(
   action = c('get', 'post'),
   object = c('milestone', 'issue', 'issue event', 'issue comment', 'repo labels')){

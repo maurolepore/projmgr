@@ -24,3 +24,9 @@ my_repo <- create_repo_ref("repo_owner", "repo")
 browse_issues(my_repo)
 }
 }
+\seealso{
+Other chirunconf: \code{\link{browse_docs}},
+  \code{\link{browse_milestones}},
+  \code{\link{browse_repo}}
+}
+\concept{chirunconf}

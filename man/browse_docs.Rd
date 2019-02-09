@@ -26,3 +26,9 @@ the \code{usethis} package.
 browse_docs('get', 'milestone')
 }
 }
+\seealso{
+Other chirunconf: \code{\link{browse_issues}},
+  \code{\link{browse_milestones}},
+  \code{\link{browse_repo}}
+}
+\concept{chirunconf}
