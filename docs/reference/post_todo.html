@@ -154,16 +154,16 @@ Please see the "Building Custom Plans" vignette for details.</p>
     <colgroup><col class="name" /><col class="desc" /></colgroup>
     <tr>
       <th>ref</th>
-      <td><p>Repository reference (list) created by <code>create_repo_ref()</code></p></td>
+      <td><p>Repository reference (list) created by <code><a href='create_repo_ref.html'>create_repo_ref()</a></code></p></td>
     </tr>
     <tr>
       <th>todo</th>
-      <td><p>To-do R list structure as read with <code>read_todo()</code></p></td>
+      <td><p>To-do R list structure as read with <code><a href='read_todo.html'>read_todo()</a></code></p></td>
     </tr>
     <tr>
       <th>distinct</th>
       <td><p>Logical value to denote whether issues with the same title
-as a current open issue should be allowed. Passed to <code>get_issues()</code></p></td>
+as a current open issue should be allowed. Passed to <code><a href='get_issues.html'>get_issues()</a></code></p></td>
     </tr>
     </table>
     
@@ -177,10 +177,10 @@ as a current open issue should be allowed. Passed to <code>get_issues()</code></
     
     <h2 class="hasAnchor" id="see-also"><a class="anchor" href="#see-also"></a>See also</h2>
 
-    <div class='dont-index'><p>Other plans and todos: <code>post_plan</code>,
-  <code>read_plan</code>, <code>read_todo</code>,
-  <code>report_plan</code>, <code>report_todo</code>,
-  <code>template_yaml</code></p></div>
+    <div class='dont-index'><p>Other plans and todos: <code><a href='post_plan.html'>post_plan</a></code>,
+  <code><a href='read_plan.html'>read_plan</a></code>, <code><a href='read_todo.html'>read_todo</a></code>,
+  <code><a href='report_plan.html'>report_plan</a></code>, <code><a href='report_todo.html'>report_todo</a></code>,
+  <code><a href='template_yaml.html'>template_yaml</a></code></p></div>
     
 
     <h2 class="hasAnchor" id="examples"><a class="anchor" href="#examples"></a>Examples</h2>
@@ -188,7 +188,7 @@ as a current open issue should be allowed. Passed to <code>get_issues()</code></
 <span class='co'># This example uses example file included in pkg</span>
 <span class='co'># You should be able to run example as-is after creating your own repo reference</span>
 <span class='no'>file_path</span> <span class='kw'>&lt;-</span> <span class='fu'><a href='https://www.rdocumentation.org/packages/base/topics/system.file'>system.file</a></span>(<span class='st'>"extdata"</span>, <span class='st'>"todo.yml"</span>, <span class='kw'>package</span> <span class='kw'>=</span> <span class='st'>"projmgr"</span>, <span class='kw'>mustWork</span> <span class='kw'>=</span> <span class='fl'>TRUE</span>)
-<span class='no'>my_todo</span> <span class='kw'>&lt;-</span> <span class='fu'>read_todo</span>(<span class='no'>file_path</span>)
+<span class='no'>my_todo</span> <span class='kw'>&lt;-</span> <span class='fu'><a href='read_todo.html'>read_todo</a></span>(<span class='no'>file_path</span>)
 <span class='fu'>post_todo</span>(<span class='no'>ref</span>, <span class='no'>my_todo</span>)
 <span class='co'># }</span></pre>
   </div>

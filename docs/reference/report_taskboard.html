@@ -155,13 +155,13 @@ as "Not Started", "In Progress", or "Done".</p>
     <colgroup><col class="name" /><col class="desc" /></colgroup>
     <tr>
       <th>data</th>
-      <td><p>Dataset, such as those representing issues or milestones (i.e. from <code>parse_issues()</code>).
+      <td><p>Dataset, such as those representing issues or milestones (i.e. from <code><a href='parse_issues.html'>parse_issues()</a></code>).
 Must have <code>state</code> variable.</p></td>
     </tr>
     <tr>
       <th>in_progress_when</th>
       <td><p>Function with parameter <code>data</code> that returns Boolean vector. Generally, one of the
-taskboard helper functions. See <code>?taskboard_helpers</code> for details.</p></td>
+taskboard helper functions. See <code><a href='taskboard_helpers.html'>?taskboard_helpers</a></code> for details.</p></td>
     </tr>
     <tr>
       <th>include_link</th>
@@ -185,7 +185,7 @@ taskboard helper functions. See <code>?taskboard_helpers</code> for details.</p>
 
     <p>The following logic is used to determine the status of each issue:</p><ul>
 <li><p>Done: Items with a <code>state</code> of "closed"</p></li>
-<li><p>In Progress: Custom logic via <code>in_progress_when</code>. See <code>?taskboard_helpers</code> for details.</p></li>
+<li><p>In Progress: Custom logic via <code>in_progress_when</code>. See <code><a href='taskboard_helpers.html'>?taskboard_helpers</a></code> for details.</p></li>
 <li><p>Not Started: Default case for items neither In Progress or Closed</p></li>
 </ul>
     

@@ -176,20 +176,20 @@ this packages functionality. Please file an issue if you disagree:</p><ul>
     
     <h2 class="hasAnchor" id="see-also"><a class="anchor" href="#see-also"></a>See also</h2>
 
-    <div class='dont-index'><p>Other issues: <code>get_issue_comments</code>,
-  <code>get_issue_events</code>, <code>get_issues</code>,
-  <code>parse_issue_comments</code>,
-  <code>parse_issues</code>, <code>post_issue</code>,
-  <code>report_discussion</code>,
-  <code>report_progress</code>,
-  <code>viz_waterfall</code></p>
-<p>Other events: <code>get_issue_events</code></p></div>
+    <div class='dont-index'><p>Other issues: <code><a href='get_issue_comments.html'>get_issue_comments</a></code>,
+  <code><a href='get_issue_events.html'>get_issue_events</a></code>, <code><a href='get_issues.html'>get_issues</a></code>,
+  <code><a href='parse_issue_comments.html'>parse_issue_comments</a></code>,
+  <code><a href='parse_issues.html'>parse_issues</a></code>, <code><a href='post_issue.html'>post_issue</a></code>,
+  <code><a href='report_discussion.html'>report_discussion</a></code>,
+  <code><a href='report_progress.html'>report_progress</a></code>,
+  <code><a href='viz_waterfall.html'>viz_waterfall</a></code></p>
+<p>Other events: <code><a href='get_issue_events.html'>get_issue_events</a></code></p></div>
     
 
     <h2 class="hasAnchor" id="examples"><a class="anchor" href="#examples"></a>Examples</h2>
     <pre class="examples"><span class='co'># NOT RUN {</span>
-<span class='no'>myrepo</span> <span class='kw'>&lt;-</span> <span class='fu'>create_repo_ref</span>(<span class='st'>'emilyriederer'</span>, <span class='st'>'myrepo'</span>)
-<span class='no'>events_res</span> <span class='kw'>&lt;-</span> <span class='fu'>get_issue_events</span>(<span class='no'>myrepo</span>, <span class='kw'>number</span> <span class='kw'>=</span> <span class='fl'>1</span>)
+<span class='no'>myrepo</span> <span class='kw'>&lt;-</span> <span class='fu'><a href='create_repo_ref.html'>create_repo_ref</a></span>(<span class='st'>'emilyriederer'</span>, <span class='st'>'myrepo'</span>)
+<span class='no'>events_res</span> <span class='kw'>&lt;-</span> <span class='fu'><a href='get_issue_events.html'>get_issue_events</a></span>(<span class='no'>myrepo</span>, <span class='kw'>number</span> <span class='kw'>=</span> <span class='fl'>1</span>)
 <span class='no'>events</span> <span class='kw'>&lt;-</span> <span class='fu'>parse_issue_events</span>(<span class='no'>events_res</span>)
 <span class='co'># }</span></pre>
   </div>
