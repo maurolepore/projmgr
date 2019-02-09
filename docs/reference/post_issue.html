@@ -152,7 +152,7 @@
     <colgroup><col class="name" /><col class="desc" /></colgroup>
     <tr>
       <th>ref</th>
-      <td><p>Repository reference (list) created by <code><a href='create_repo_ref.html'>create_repo_ref()</a></code></p></td>
+      <td><p>Repository reference (list) created by <code>create_repo_ref()</code></p></td>
     </tr>
     <tr>
       <th>title</th>
@@ -160,7 +160,7 @@
     </tr>
     <tr>
       <th>...</th>
-      <td><p>Additional user-defined body parameters. Use <code><a href='browse_docs.html'>browse_docs()</a></code> to learn more.</p></td>
+      <td><p>Additional user-defined body parameters. Use <code>browse_docs()</code> to learn more.</p></td>
     </tr>
     <tr>
       <th>distinct</th>
@@ -175,14 +175,14 @@ as a current open issue should be allowed</p></td>
     
     <h2 class="hasAnchor" id="see-also"><a class="anchor" href="#see-also"></a>See also</h2>
 
-    <div class='dont-index'><p>Other issues: <code><a href='get_issue_comments.html'>get_issue_comments</a></code>,
-  <code><a href='get_issue_events.html'>get_issue_events</a></code>, <code><a href='get_issues.html'>get_issues</a></code>,
-  <code><a href='parse_issue_comments.html'>parse_issue_comments</a></code>,
-  <code><a href='parse_issue_events.html'>parse_issue_events</a></code>,
-  <code><a href='parse_issues.html'>parse_issues</a></code>,
-  <code><a href='report_discussion.html'>report_discussion</a></code>,
-  <code><a href='report_progress.html'>report_progress</a></code>,
-  <code><a href='viz_waterfall.html'>viz_waterfall</a></code></p></div>
+    <div class='dont-index'><p>Other issues: <code>get_issue_comments</code>,
+  <code>get_issue_events</code>, <code>get_issues</code>,
+  <code>parse_issue_comments</code>,
+  <code>parse_issue_events</code>,
+  <code>parse_issues</code>,
+  <code>report_discussion</code>,
+  <code>report_progress</code>,
+  <code>viz_waterfall</code></p></div>
     
 
     <h2 class="hasAnchor" id="examples"><a class="anchor" href="#examples"></a>Examples</h2>
@@ -196,7 +196,7 @@ post_issue(myrepo,
 <span class='co'># NOT RUN {</span>
 <span class='co'># can be used in conjunction with reprex pkg</span>
 <span class='co'># example assumes code for reprex is on clipboard</span>
-<span class='kw pkg'>reprex</span><span class='kw ns'>::</span><span class='fu'><a href='https://www.rdocumentation.org/packages/reprex/topics/reprex'>reprex</a></span>(<span class='kw'>venue</span> <span class='kw'>=</span> <span class='st'>"gh"</span>)
+<span class='kw pkg'>reprex</span><span class='kw ns'>::</span><span class='fu'><a href='https://reprex.tidyverse.org/reference/reprex.html'>reprex</a></span>(<span class='kw'>venue</span> <span class='kw'>=</span> <span class='st'>"gh"</span>)
 <span class='fu'>post_issue</span>(<span class='no'>myrepo</span>,
             <span class='kw'>title</span> <span class='kw'>=</span> <span class='st'>"something is broken"</span>,
             <span class='kw'>body</span> <span class='kw'>=</span> <span class='fu'><a href='https://www.rdocumentation.org/packages/base/topics/paste'>paste</a></span>( <span class='kw pkg'>clipr</span><span class='kw ns'>::</span><span class='fu'><a href='https://www.rdocumentation.org/packages/clipr/topics/read_clip'>read_clip</a></span>(), <span class='kw'>collapse</span> <span class='kw'>=</span> <span class='st'>"\n"</span>) )

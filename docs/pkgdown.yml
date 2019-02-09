@@ -1,22 +1,7 @@
-pandoc: 1.19.2.1
+pandoc: 2.1.1
 pkgdown: 1.3.0
 pkgdown_sha: ~
-articles:
-  analysis-projects: analysis-projects.html
-  basic-usage: basic-usage.html
-  building-custom-plans: building-custom-plans.html
-  design-notes: design-notes.html
-  documenting-discussion: documenting-discussion.html
-  event-mgt: event-mgt.html
-  events-data: events-data.html
-  git-github-introduction: git-github-introduction.html
-  github-pat: github-pat.html
-  reporting: reporting.html
-  reprex-clipr: reprex-clipr.html
-  sending-emails: sending-emails.html
-  tracking-KPIs: tracking-KPIs.html
-  visualization: visualization.html
-  working-offline: working-offline.html
+articles: []
 urls:
   reference: https://emilyriederer.github.io/projmgr//reference
   article: https://emilyriederer.github.io/projmgr//articles
